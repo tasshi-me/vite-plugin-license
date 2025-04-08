@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-license",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Vite plugin to add license banner to bundled output. Tiny wrapper for rollup-plugin-license.",
   "keywords": [
     "vite-plugin",

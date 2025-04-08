@@ -7,4 +7,3 @@ This is a tiny wrapper for [rollup-plugin-license](https://github.com/mjeanroy/r
 ## License
 
 [MIT](./LICENSE)
-

@@ -1,27 +1,39 @@
 {
   "name": "vite-plugin-license",
-  "type": "module",
   "version": "0.0.0",
   "description": "Vite plugin to add license banner to bundled output. Tiny wrapper for rollup-plugin-license.",
-  "main": "index.js",
-  "scripts": {
-    "build": "tsc --build",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "files": [
-    "CHANGELOG.md",
-    "lib"
-  ],
   "keywords": [
     "vite-plugin",
     "vite",
     "typescript",
     "license"
   ],
-  "author": "tasshi (Masaharu Tashiro) <tasshi.me@gmail.com>",
   "license": "MIT",
-  "packageManager": "pnpm@8.15.9+sha512.499434c9d8fdd1a2794ebf4552b3b25c0a633abcee5bb15e7b5de90f32f47b513aca98cd5cfd001c31f0db454bc3804edccd578501e4ca293a6816166bbd9f81",
+  "author": "tasshi (Masaharu Tashiro) <tasshi.me@gmail.com>",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "CHANGELOG.md",
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc --build",
+    "fix": "pnpm run \"/^fix:.*/\"",
+    "fix:eslint": "pnpm lint:eslint --fix",
+    "fix:prettier": "pnpm lint:prettier --write",
+    "lint": "pnpm run \"/^lint:.*/\"",
+    "lint:eslint": "eslint . --max-warnings 0",
+    "lint:package": "publint",
+    "lint:prettier": "prettier --check '**/*.{json,json5,md,yml,yaml}' --cache",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
+    "@cybozu/eslint-config": "^24.0.0",
+    "eslint": "^9.24.0",
+    "eslint-plugin-package-json": "^0.29.0",
+    "prettier": "^3.5.3",
+    "publint": "^0.3.10",
     "typescript": "^5.8.3"
-  }
+  },
+  "packageManager": "pnpm@8.15.9+sha512.499434c9d8fdd1a2794ebf4552b3b25c0a633abcee5bb15e7b5de90f32f47b513aca98cd5cfd001c31f0db454bc3804edccd578501e4ca293a6816166bbd9f81"
 }

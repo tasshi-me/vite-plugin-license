@@ -18,6 +18,7 @@
   ],
   "scripts": {
     "build": "tsc --build",
+    "clean": "tsc --build --clean",
     "fix": "pnpm run \"/^fix:.*/\"",
     "fix:eslint": "pnpm lint:eslint --fix",
     "fix:prettier": "pnpm lint:prettier --write",
@@ -25,7 +26,7 @@
     "lint:eslint": "eslint . --max-warnings 0",
     "lint:package": "publint",
     "lint:prettier": "prettier --check '**/*.{json,json5,md,yml,yaml}' --cache",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest"
   },
   "devDependencies": {
     "@cybozu/eslint-config": "^24.0.0",
@@ -33,7 +34,8 @@
     "eslint-plugin-package-json": "^0.29.0",
     "prettier": "^3.5.3",
     "publint": "^0.3.10",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.1"
   },
   "packageManager": "pnpm@8.15.9+sha512.499434c9d8fdd1a2794ebf4552b3b25c0a633abcee5bb15e7b5de90f32f47b513aca98cd5cfd001c31f0db454bc3804edccd578501e4ca293a6816166bbd9f81"
 }

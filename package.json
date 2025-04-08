@@ -11,6 +11,7 @@
   "license": "MIT",
   "author": "tasshi (Masaharu Tashiro) <tasshi.me@gmail.com>",
   "type": "module",
+  "exports": "./lib/index.js",
   "main": "lib/index.js",
   "files": [
     "CHANGELOG.md",
@@ -28,14 +29,22 @@
     "lint:prettier": "prettier --check '**/*.{json,json5,md,yml,yaml}' --cache",
     "test": "vitest"
   },
+  "dependencies": {
+    "rollup-plugin-license": "^3.6.0"
+  },
   "devDependencies": {
     "@cybozu/eslint-config": "^24.0.0",
+    "@types/node": "^22.14.0",
     "eslint": "^9.24.0",
     "eslint-plugin-package-json": "^0.29.0",
     "prettier": "^3.5.3",
     "publint": "^0.3.10",
+    "rollup": "^4.39.0",
     "typescript": "^5.8.3",
     "vitest": "^3.1.1"
+  },
+  "peerDependencies": {
+    "vite": "^6.0.0"
   },
   "packageManager": "pnpm@8.15.9+sha512.499434c9d8fdd1a2794ebf4552b3b25c0a633abcee5bb15e7b5de90f32f47b513aca98cd5cfd001c31f0db454bc3804edccd578501e4ca293a6816166bbd9f81"
 }

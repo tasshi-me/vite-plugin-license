@@ -37,9 +37,10 @@ jobs:
       - run: pnpm install
       - run: pnpm build
       - run: pnpm test
-#  actions-timeline:
-#    needs: [lint, test]
-#    runs-on: ubuntu-latest
-#    if: ${{ !cancelled() }}
-#    steps:
-#      - uses: Kesin11/actions-timeline@da70beff098ff89b15d279e8bf2f60519a8dadd7 # v2
+
+  actions-timeline:
+    needs: [lint, test]
+    runs-on: ubuntu-latest
+    if: ${{ !cancelled() }}
+    steps:
+      - uses: Kesin11/actions-timeline@da70beff098ff89b15d279e8bf2f60519a8dadd7 # v2

@@ -44,10 +44,10 @@ jobs:
         env:
           # https://docs.npmjs.com/generating-provenance-statements#using-third-party-package-publishing-tools
           NPM_CONFIG_PROVENANCE: true
-#
-#  actions-timeline:
-#    needs: [release, publish]
-#    runs-on: ubuntu-latest
-#    if: ${{ !cancelled() }}
-#    steps:
-#      - uses: Kesin11/actions-timeline@3046833d9aacfd7745c5264b7f3af851c3e2a619 # v2
+
+  actions-timeline:
+    needs: [release, publish]
+    runs-on: ubuntu-latest
+    if: ${{ !cancelled() }}
+    steps:
+      - uses: Kesin11/actions-timeline@3046833d9aacfd7745c5264b7f3af851c3e2a619 # v2

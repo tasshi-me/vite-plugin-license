@@ -5,10 +5,23 @@
   "description": "Vite plugin to add license banner to bundled output. Tiny wrapper for rollup-plugin-license.",
   "main": "index.js",
   "scripts": {
+    "build": "tsc --build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["vite-plugin", "vite", "typescript", "license"],
+  "files": [
+    "CHANGELOG.md",
+    "lib"
+  ],
+  "keywords": [
+    "vite-plugin",
+    "vite",
+    "typescript",
+    "license"
+  ],
   "author": "tasshi (Masaharu Tashiro) <tasshi.me@gmail.com>",
   "license": "MIT",
-  "packageManager": "pnpm@8.15.9+sha512.499434c9d8fdd1a2794ebf4552b3b25c0a633abcee5bb15e7b5de90f32f47b513aca98cd5cfd001c31f0db454bc3804edccd578501e4ca293a6816166bbd9f81"
+  "packageManager": "pnpm@8.15.9+sha512.499434c9d8fdd1a2794ebf4552b3b25c0a633abcee5bb15e7b5de90f32f47b513aca98cd5cfd001c31f0db454bc3804edccd578501e4ca293a6816166bbd9f81",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
 }

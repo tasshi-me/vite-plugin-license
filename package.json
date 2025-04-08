@@ -8,6 +8,14 @@
     "typescript",
     "license"
   ],
+  "homepage": "https://github.com/tasshi-me/vite-plugin-license",
+  "bugs": {
+    "url": "https://github.com/tasshi-me/vite-plugin-license/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tasshi-me/vite-plugin-license.git"
+  },
   "license": "MIT",
   "author": "tasshi (Masaharu Tashiro) <tasshi.me@gmail.com>",
   "type": "module",

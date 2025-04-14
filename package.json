@@ -46,7 +46,7 @@
     "eslint": "^9.24.0",
     "eslint-plugin-package-json": "^0.29.1",
     "prettier": "^3.5.3",
-    "publint": "^0.3.11",
+    "publint": "^0.3.12",
     "rollup": "^4.40.0",
     "typescript": "^5.8.3",
     "vitest": "^3.1.1"

@@ -25,8 +25,8 @@ importers:
         specifier: ^9.29.0
         version: 9.29.0
       eslint-plugin-package-json:
-        specifier: ^0.37.0
-        version: 0.37.0(@types/estree@1.0.7)(eslint@9.29.0)(jsonc-eslint-parser@2.4.0)
+        specifier: ^0.39.0
+        version: 0.39.0(@types/estree@1.0.7)(eslint@9.29.0)(jsonc-eslint-parser@2.4.0)
       prettier:
         specifier: ^3.5.3
         version: 3.5.3
@@ -912,8 +912,8 @@ packages:
     peerDependencies:
       eslint: '>=8.23.0'
 
-  eslint-plugin-package-json@0.37.0:
-    resolution: {integrity: sha512-3okOV0Ql54nT5mtWRmesgkuWLryEQcBZ5owpikCkDQ6Jf+rp4izdkwFeN/hmrRCmkFMqgbzcTddIVSX84/nvEw==}
+  eslint-plugin-package-json@0.39.0:
+    resolution: {integrity: sha512-9b60HndMyi4QMrHhVcckWGxjloSxFWaVV1uiv1GOfBdlbhcErUcr09k2ZEiKw7EFh/dxS8VBYZHS2P9TkpTIeA==}
     engines: {node: ^=20.19.0 || >=22.12.0}
     peerDependencies:
       eslint: '>=8.0.0'
@@ -2850,7 +2850,7 @@ snapshots:
       minimatch: 9.0.5
       semver: 7.7.1
 
-  eslint-plugin-package-json@0.37.0(@types/estree@1.0.7)(eslint@9.29.0)(jsonc-eslint-parser@2.4.0):
+  eslint-plugin-package-json@0.39.0(@types/estree@1.0.7)(eslint@9.29.0)(jsonc-eslint-parser@2.4.0):
     dependencies:
       '@altano/repository-tools': 0.1.1
       detect-indent: 7.0.1
@@ -2966,8 +2966,8 @@ snapshots:
 
   espree@9.6.1:
     dependencies:
-      acorn: 8.14.1
-      acorn-jsx: 5.3.2(acorn@8.14.1)
+      acorn: 8.15.0
+      acorn-jsx: 5.3.2(acorn@8.15.0)
       eslint-visitor-keys: 3.4.3
 
   esquery@1.6.0:
@@ -3288,7 +3288,7 @@ snapshots:
 
   jsonc-eslint-parser@2.4.0:
     dependencies:
-      acorn: 8.14.1
+      acorn: 8.15.0
       eslint-visitor-keys: 3.4.3
       espree: 9.6.1
       semver: 7.7.1

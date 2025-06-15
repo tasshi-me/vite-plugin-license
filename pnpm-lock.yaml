@@ -25,8 +25,8 @@ importers:
         specifier: ^9.29.0
         version: 9.29.0
       eslint-plugin-package-json:
-        specifier: ^0.37.0
-        version: 0.37.0(@types/estree@1.0.7)(eslint@9.29.0)(jsonc-eslint-parser@2.4.0)
+        specifier: ^0.39.2
+        version: 0.39.2(@types/estree@1.0.7)(eslint@9.29.0)(jsonc-eslint-parser@2.4.0)
       prettier:
         specifier: ^3.5.3
         version: 3.5.3
@@ -45,8 +45,8 @@ importers:
 
 packages:
 
-  '@altano/repository-tools@0.1.1':
-    resolution: {integrity: sha512-5vbUs2A98CC3g1AlOBdkBE0BMukkLjLIsMHAtuxg6Pt9dQXxYWdLKOf66v6c/vIqtNcgTMv0oGtddLdMuH9X6w==}
+  '@altano/repository-tools@1.0.1':
+    resolution: {integrity: sha512-/FFHQOMp5TZWplkDWbbLIjmANDr9H/FtqUm+hfJMK76OBut0Ht0cNfd0ZXd/6LXf4pWUTzvpgVjcin7EEHSznA==}
 
   '@cybozu/eslint-config@24.0.0':
     resolution: {integrity: sha512-ML3MwIZW+Q9mLWVbwo7osoCTSLrpYEWCmWCenaIRhCrzkNgnAdtS8PwWaFAs2/ye5OJLDvw2KMeRPkvsrLdFcA==}
@@ -785,10 +785,6 @@ packages:
     resolution: {integrity: sha512-Mc7QhQ8s+cLrnUfU/Ji94vG/r8M26m8f++vyres4ZoojaRDpZ1eSIh/EpzLNwlWuvzSZ3UbDFspjFvTDXe6e/g==}
     engines: {node: '>=12.20'}
 
-  detect-newline@3.1.0:
-    resolution: {integrity: sha512-TLz+x/vEXm/Y7P7wn1EJFNLxYpUD4TgMosxY6fAVJUnJMbupHBOncxyWUG9OpTaH9EBD7uFI5LfEgmMOc54DsA==}
-    engines: {node: '>=8'}
-
   detect-newline@4.0.1:
     resolution: {integrity: sha512-qE3Veg1YXzGHQhlA6jzebZN2qVf6NX+A7m7qlhCGG30dJixrAQhYOsJjsnBjJkCSmuOPpCk30145fr8FV0bzog==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
@@ -912,8 +908,8 @@ packages:
     peerDependencies:
       eslint: '>=8.23.0'
 
-  eslint-plugin-package-json@0.37.0:
-    resolution: {integrity: sha512-3okOV0Ql54nT5mtWRmesgkuWLryEQcBZ5owpikCkDQ6Jf+rp4izdkwFeN/hmrRCmkFMqgbzcTddIVSX84/nvEw==}
+  eslint-plugin-package-json@0.39.2:
+    resolution: {integrity: sha512-uvyMjUlzr0CKsmj7IfDK5s2RvFVei2KZRxr3WAycpFR+p22R957lZlGIcmwSuVoNmSq9/uk+jZMLqzS/TcYS1A==}
     engines: {node: ^=20.19.0 || >=22.12.0}
     peerDependencies:
       eslint: '>=8.0.0'
@@ -1936,7 +1932,7 @@ packages:
 
 snapshots:
 
-  '@altano/repository-tools@0.1.1': {}
+  '@altano/repository-tools@1.0.1': {}
 
   '@cybozu/eslint-config@24.0.0(eslint@9.29.0)(prettier@3.5.3)(typescript@5.8.3)':
     dependencies:
@@ -2610,8 +2606,6 @@ snapshots:
 
   detect-indent@7.0.1: {}
 
-  detect-newline@3.1.0: {}
-
   detect-newline@4.0.1: {}
 
   doctrine@2.1.0:
@@ -2850,11 +2844,11 @@ snapshots:
       minimatch: 9.0.5
       semver: 7.7.1
 
-  eslint-plugin-package-json@0.37.0(@types/estree@1.0.7)(eslint@9.29.0)(jsonc-eslint-parser@2.4.0):
+  eslint-plugin-package-json@0.39.2(@types/estree@1.0.7)(eslint@9.29.0)(jsonc-eslint-parser@2.4.0):
     dependencies:
-      '@altano/repository-tools': 0.1.1
+      '@altano/repository-tools': 1.0.1
       detect-indent: 7.0.1
-      detect-newline: 3.1.0
+      detect-newline: 4.0.1
       eslint: 9.29.0
       eslint-fix-utils: 0.2.1(@types/estree@1.0.7)(eslint@9.29.0)
       jsonc-eslint-parser: 2.4.0
@@ -2966,8 +2960,8 @@ snapshots:
 
   espree@9.6.1:
     dependencies:
-      acorn: 8.14.1
-      acorn-jsx: 5.3.2(acorn@8.14.1)
+      acorn: 8.15.0
+      acorn-jsx: 5.3.2(acorn@8.15.0)
       eslint-visitor-keys: 3.4.3
 
   esquery@1.6.0:
@@ -3288,7 +3282,7 @@ snapshots:
 
   jsonc-eslint-parser@2.4.0:
     dependencies:
-      acorn: 8.14.1
+      acorn: 8.15.0
       eslint-visitor-keys: 3.4.3
       espree: 9.6.1
       semver: 7.7.1

@@ -41,7 +41,7 @@
     "rollup-plugin-license": "^3.6.0"
   },
   "devDependencies": {
-    "@cybozu/eslint-config": "^24.0.0",
+    "@cybozu/eslint-config": "^24.1.0",
     "@types/node": "^22.16.5",
     "eslint": "^9.31.0",
     "eslint-plugin-package-json": "^0.37.0",

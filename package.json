@@ -44,7 +44,7 @@
     "@cybozu/eslint-config": "^24.2.0",
     "@types/node": "^22.17.2",
     "eslint": "^9.33.0",
-    "eslint-plugin-package-json": "^0.37.0",
+    "eslint-plugin-package-json": "^0.54.0",
     "prettier": "^3.6.2",
     "publint": "^0.3.12",
     "rollup": "^4.46.2",

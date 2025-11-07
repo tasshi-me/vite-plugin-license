@@ -40,7 +40,7 @@ importers:
         specifier: ^5.9.3
         version: 5.9.3
       vitest:
-        specifier: ^4.0.1
+        specifier: ^4.0.2
         version: 4.0.7(@types/node@22.18.12)
 
 packages:
@@ -295,9 +295,6 @@ packages:
   '@humanwhocodes/retry@0.4.2':
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
-
-  '@jridgewell/sourcemap-codec@1.5.0':
-    resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
 
   '@jridgewell/sourcemap-codec@1.5.5':
     resolution: {integrity: sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==}
@@ -2267,8 +2264,6 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@jridgewell/sourcemap-codec@1.5.0': {}
-
   '@jridgewell/sourcemap-codec@1.5.5': {}
 
   '@napi-rs/wasm-runtime@0.2.12':
@@ -2414,7 +2409,7 @@ snapshots:
       '@typescript-eslint/types': 8.40.0
       '@typescript-eslint/typescript-estree': 8.40.0(typescript@5.9.3)
       '@typescript-eslint/visitor-keys': 8.40.0
-      debug: 4.4.1
+      debug: 4.4.3
       eslint: 9.38.0
       typescript: 5.9.3
     transitivePeerDependencies:
@@ -2424,7 +2419,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/tsconfig-utils': 8.38.0(typescript@5.9.3)
       '@typescript-eslint/types': 8.38.0
-      debug: 4.4.1
+      debug: 4.4.3
       typescript: 5.9.3
     transitivePeerDependencies:
       - supports-color
@@ -2433,7 +2428,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/tsconfig-utils': 8.40.0(typescript@5.9.3)
       '@typescript-eslint/types': 8.40.0
-      debug: 4.4.1
+      debug: 4.4.3
       typescript: 5.9.3
     transitivePeerDependencies:
       - supports-color
@@ -2461,7 +2456,7 @@ snapshots:
       '@typescript-eslint/types': 8.40.0
       '@typescript-eslint/typescript-estree': 8.40.0(typescript@5.9.3)
       '@typescript-eslint/utils': 8.40.0(eslint@9.38.0)(typescript@5.9.3)
-      debug: 4.4.1
+      debug: 4.4.3
       eslint: 9.38.0
       ts-api-utils: 2.1.0(typescript@5.9.3)
       typescript: 5.9.3
@@ -2478,7 +2473,7 @@ snapshots:
       '@typescript-eslint/tsconfig-utils': 8.38.0(typescript@5.9.3)
       '@typescript-eslint/types': 8.38.0
       '@typescript-eslint/visitor-keys': 8.38.0
-      debug: 4.4.1
+      debug: 4.4.3
       fast-glob: 3.3.3
       is-glob: 4.0.3
       minimatch: 9.0.5
@@ -2494,7 +2489,7 @@ snapshots:
       '@typescript-eslint/tsconfig-utils': 8.40.0(typescript@5.9.3)
       '@typescript-eslint/types': 8.40.0
       '@typescript-eslint/visitor-keys': 8.40.0
-      debug: 4.4.1
+      debug: 4.4.3
       fast-glob: 3.3.3
       is-glob: 4.0.3
       minimatch: 9.0.5
@@ -3039,7 +3034,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 8.38.0
       comment-parser: 1.4.1
-      debug: 4.4.1
+      debug: 4.4.3
       eslint: 9.38.0
       eslint-import-context: 0.1.9(unrs-resolver@1.11.1)
       is-glob: 4.0.3
@@ -3565,7 +3560,7 @@ snapshots:
 
   magic-string@0.30.17:
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.5.0
+      '@jridgewell/sourcemap-codec': 1.5.5
 
   magic-string@0.30.21:
     dependencies:
@@ -4048,7 +4043,7 @@ snapshots:
 
   ts-declaration-location@1.0.7(typescript@5.9.3):
     dependencies:
-      picomatch: 4.0.2
+      picomatch: 4.0.3
       typescript: 5.9.3
 
   tslib@2.8.1:

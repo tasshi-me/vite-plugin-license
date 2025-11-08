@@ -17,7 +17,11 @@
     "url": "git+https://github.com/tasshi-me/vite-plugin-license.git"
   },
   "license": "MIT",
-  "author": "tasshi (Masaharu Tashiro) <tasshi.me@gmail.com>",
+  "author": {
+    "name": "tasshi (Masaharu Tashiro)",
+    "email": "tasshi.me@gmail.com",
+    "url": "https://tasshi.me/"
+  },
   "type": "module",
   "exports": "./lib/index.js",
   "main": "lib/index.js",

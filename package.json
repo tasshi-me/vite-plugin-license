@@ -17,7 +17,11 @@
     "url": "git+https://github.com/tasshi-me/vite-plugin-license.git"
   },
   "license": "MIT",
-  "author": "tasshi (Masaharu Tashiro) <tasshi.me@gmail.com>",
+  "author": {
+    "name": "tasshi (Masaharu Tashiro)",
+    "email": "tasshi.me@gmail.com",
+    "url": "https://tasshi.me/"
+  },
   "type": "module",
   "exports": "./lib/index.js",
   "main": "lib/index.js",
@@ -44,7 +48,7 @@
     "@cybozu/eslint-config": "^24.3.0",
     "@types/node": "^22.18.12",
     "eslint": "^9.38.0",
-    "eslint-plugin-package-json": "^0.37.0",
+    "eslint-plugin-package-json": "^0.58.0",
     "prettier": "^3.6.2",
     "publint": "^0.3.15",
     "rollup": "^4.52.5",

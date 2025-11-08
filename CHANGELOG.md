@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.2](https://github.com/tasshi-me/vite-plugin-license/compare/v0.0.1...v0.0.2) (2025-11-08)
+
+
+### Continuous Integration
+
+* use trusted publishing ([#187](https://github.com/tasshi-me/vite-plugin-license/issues/187)) ([cc5c6d4](https://github.com/tasshi-me/vite-plugin-license/commit/cc5c6d47a8a431a37ceea233f3cf4f59c7376bad))
+
 ## 0.0.1 (2025-04-08)
 
 

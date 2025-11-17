@@ -19,7 +19,7 @@ importers:
         specifier: ^24.3.0
         version: 24.3.0(@typescript-eslint/utils@8.40.0(eslint@9.39.1)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint@9.39.1)(prettier@3.6.2)(typescript@5.9.3)
       '@types/node':
-        specifier: ^22.18.13
+        specifier: ^22.19.0
         version: 22.19.0
       eslint:
         specifier: ^9.39.0

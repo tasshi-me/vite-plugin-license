@@ -22,7 +22,7 @@ importers:
         specifier: ^22.19.0
         version: 22.19.0
       eslint:
-        specifier: ^9.39.0
+        specifier: ^9.39.1
         version: 9.39.1
       eslint-plugin-package-json:
         specifier: ^0.59.1

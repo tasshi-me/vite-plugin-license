@@ -25,8 +25,8 @@ importers:
         specifier: ^9.39.1
         version: 9.39.1
       eslint-plugin-package-json:
-        specifier: ^0.59.1
-        version: 0.59.1(@types/estree@1.0.8)(eslint@9.39.1)(jsonc-eslint-parser@2.4.0)
+        specifier: ^0.63.0
+        version: 0.63.0(@types/estree@1.0.8)(eslint@9.39.1)(jsonc-eslint-parser@2.4.0)
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
@@ -1009,8 +1009,8 @@ packages:
     peerDependencies:
       eslint: '>=8.23.0'
 
-  eslint-plugin-package-json@0.59.1:
-    resolution: {integrity: sha512-dalsU3Zsz8RYLkV6FnNBJh408WlTuqQaDfxV/ae29yK7pTzjNNJN+kqU9YhHfHkbJ5XBax4xHWvidvAk4xE31w==}
+  eslint-plugin-package-json@0.63.0:
+    resolution: {integrity: sha512-FmeLtFSplo53v48b1XDhmdWwZmj/pnaIaCYfNLDTRtm+nLeY23kgWnPwOlB9tA6+ru2BpHYhnZytwMV6AOymZg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
       eslint: '>=8.0.0'
@@ -1540,8 +1540,8 @@ packages:
     resolution: {integrity: sha512-LaNjtRWUBY++zB5nE/NwcaoMylSPk+S+ZHNB1TzdbMJMny6dynpAGt7X/tl/QYq3TIeE6nxHppbo2LGymrG5Pw==}
     engines: {node: '>=10'}
 
-  package-json-validator@0.31.0:
-    resolution: {integrity: sha512-kAVO0fNFWI2xpmthogYHnHjCtg0nJvwm9yjd9nnrR5OKIts5fmNMK2OhhjnLD1/ohJNodhCa5tZm8AolOgkfMg==}
+  package-json-validator@0.32.1:
+    resolution: {integrity: sha512-SjAz3cXUAZsN6UjrvLZMj03nDohZ4KI/yj0ljNSMPVI4ZSsR7TPIMlQRHuCOOBsqUGKPhjNrAn++oVU+r77j0Q==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
@@ -3053,7 +3053,7 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  eslint-plugin-package-json@0.59.1(@types/estree@1.0.8)(eslint@9.39.1)(jsonc-eslint-parser@2.4.0):
+  eslint-plugin-package-json@0.63.0(@types/estree@1.0.8)(eslint@9.39.1)(jsonc-eslint-parser@2.4.0):
     dependencies:
       '@altano/repository-tools': 2.0.1
       change-case: 5.4.4
@@ -3062,7 +3062,7 @@ snapshots:
       eslint: 9.39.1
       eslint-fix-utils: 0.4.0(@types/estree@1.0.8)(eslint@9.39.1)
       jsonc-eslint-parser: 2.4.0
-      package-json-validator: 0.31.0
+      package-json-validator: 0.32.1
       semver: 7.7.3
       sort-object-keys: 2.0.1
       sort-package-json: 3.4.0
@@ -3626,7 +3626,7 @@ snapshots:
     dependencies:
       p-limit: 3.1.0
 
-  package-json-validator@0.31.0:
+  package-json-validator@0.32.1:
     dependencies:
       semver: 7.7.3
       validate-npm-package-license: 3.0.4

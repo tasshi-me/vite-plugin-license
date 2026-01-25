@@ -34,7 +34,7 @@ importers:
         specifier: ^0.3.17
         version: 0.3.17
       rollup:
-        specifier: ^4.55.3
+        specifier: ^4.56.0
         version: 4.56.0
       typescript:
         specifier: ^5.9.3

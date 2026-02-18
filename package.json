@@ -42,7 +42,7 @@
     "test": "vitest"
   },
   "dependencies": {
-    "rollup-plugin-license": "^3.6.0"
+    "rollup-plugin-license": "^3.7.0"
   },
   "devDependencies": {
     "@cybozu/eslint-config": "^24.3.0",

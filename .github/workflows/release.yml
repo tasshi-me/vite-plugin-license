@@ -33,7 +33,7 @@ jobs:
     if: ${{ needs.release.outputs.release_created }}
     steps:
       - uses: actions/checkout@v5
-      - uses: pnpm/action-setup@v3
+      - uses: pnpm/action-setup@903f9c1a6ebcba6cf41d87230be49611ac97822e # v6
       - uses: actions/setup-node@v6
         with:
           node-version: "lts/*"

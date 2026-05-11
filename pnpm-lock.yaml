@@ -31,7 +31,7 @@ importers:
         specifier: ^3.8.3
         version: 3.8.3
       publint:
-        specifier: ^0.3.19
+        specifier: ^0.3.20
         version: 0.3.20
       rollup:
         specifier: ^4.60.3

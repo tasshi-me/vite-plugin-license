@@ -52,7 +52,7 @@
     "prettier": "^3.9.5",
     "publint": "^0.3.21",
     "rollup": "^4.62.2",
-    "typescript": "^5.9.3",
+    "typescript": "^7.0.2",
     "vitest": "^4.1.10"
   },
   "peerDependencies": {

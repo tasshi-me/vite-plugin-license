@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3](https://github.com/tasshi-me/vite-plugin-license/compare/v0.0.2...v0.0.3) (2026-11-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency rollup-plugin-license to ^3.7.2 ([#436](https://github.com/tasshi-me/vite-plugin-license/issues/436)) ([6525e3a](https://github.com/tasshi-me/vite-plugin-license/commit/6525e3a4ae4c87ad03ae019d66359c40aecae7da))
+
 ## [0.0.2](https://github.com/tasshi-me/vite-plugin-license/compare/v0.0.1...v0.0.2) (2025-11-08)
 
 
